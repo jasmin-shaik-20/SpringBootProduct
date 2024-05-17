@@ -15,5 +15,5 @@ public class ProductRequest {
     @NotNull(message = "product price should not be null")
     private Double price;
     @NotNull(message = "product quantity should not be null")
-    private int quantity;
+    private Integer quantity;
 }
